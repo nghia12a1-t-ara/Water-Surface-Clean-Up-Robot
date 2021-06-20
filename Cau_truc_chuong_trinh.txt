@@ -1,0 +1,12 @@
+Đồ án bao gồm 3 MCU, code C - AVR/Atmega328p trên phần mềm Atmel Studio: 
++ MCU trên bộ điều khiển cầm tay gồm 
+	- file chương trình chính, có các hàm về ADC, I/O
+	- file (nRF24L01.h + nRF24L01.c) bao gồm các hàm về SPI, giao tiếp với chip RF
+	- file PORT.h để định nghĩa các cổng vào ra
++ MCU trên robot (điều khiển chuyển động và truyền thông): 
+	- file chương trình chính, có các hàm liên quan UART, PWM, I/O
+	- file (nRF24L01.h + nRF24L01.c) bao gồm các hàm về SPI, giao tiếp với chip RF
+	- file PORT.h để định nghĩa các cổng vào ra
++ MCU điều khiển băng tải và báo sự cố rác đầy: 
+	- file chương trình chính, có các hàm liên quan UART, ADC, I/O
+	- file chương trình con nén rác & đo độ cao rác. 
